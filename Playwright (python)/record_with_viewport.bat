@@ -1,1 +1,0 @@
-playwright codegen --viewport-size=360,740
