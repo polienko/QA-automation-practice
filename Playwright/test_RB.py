@@ -6,7 +6,8 @@ from playwright.sync_api import Playwright, sync_playwright, expect
  
 def test_booking(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False)
-    context = browser.new_context(viewport={"width":360,"height":740})
+    #context = browser.new_context(viewport={"width":360,"height":740})
+    context = browser.new_context(viewport={"width":1024,"height":768})
     page = context.new_page()
     page.goto("https://automationintesting.online/")
     page.get_by_role("heading", name="Single").click()

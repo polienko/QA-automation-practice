@@ -1,1 +1,1 @@
-playwright codegen https://the-internet.herokuapp.com --viewport-size=360,740
+playwright codegen https://automationintesting.online/ --viewport-size=360,740
